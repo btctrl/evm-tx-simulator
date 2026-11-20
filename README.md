@@ -10,7 +10,7 @@ Asynchronous pre-flight EVM transaction simulator and EIP-1559 gas estimator bui
 ## Quickstart
 
 ```bash
-git clone https://github.com
+git clone https://github.com/btctrl/evm-tx-simulator
 cd evm-tx-simulator
 pip install -r requirements.txt
 python simulator.py
