@@ -10,8 +10,16 @@ Asynchronous pre-flight EVM transaction simulator and EIP-1559 gas estimator bui
 ## Quickstart
 
 ```bash
-git clone https://github.com/btctrl/evm-tx-simulator
+git clone https://github.com
 cd evm-tx-simulator
 pip install -r requirements.txt
 python simulator.py
+```
+
+## Example Output
+
+```text
+18:05:09 | INFO | Connected to Base Mainnet | Running Pre-Flight Simulations...
+18:05:10 | INFO | [SCENARIO 1: Valid Approve] Success: True | Gas: 38704 (Buffered: 44509) | MaxFee: 0.015295 Gwei | Est. Cost: 0.00000059 ETH
+18:05:11 | WARNING | [SCENARIO 2: Invalid Transfer] Success: False | Prevented On-Chain Revert! Reason: execution reverted: ERC20: transfer amount exceeds balance
 ```
